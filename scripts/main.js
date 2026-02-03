@@ -13,7 +13,7 @@ h1.textContent = fullName;
 let age = 14
 
 // Select #age and update with current age
-const ageElement = document.querySelector('p');
+const ageElement = document.getElementById('age');
 ageElement.textContent = "Age: " + age;
 
 // Create new paragraph for age in twenty years and append to section
